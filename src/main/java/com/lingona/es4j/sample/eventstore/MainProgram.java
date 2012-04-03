@@ -5,22 +5,12 @@ import com.lingona.es4j.api.persistence.IPersistStreams;
 import com.lingona.es4j.core.OptimisticEventStore;
 import com.lingona.es4j.core.OptimisticPipelineHook;
 import com.lingona.es4j.core.persistence.inmemory.InMemoryPersistenceFactory;
-import java.util.*;
-/*
-import com.lingona.eventstore.joliver.api.*;
-import com.lingona.eventstore.joliver.api.Persistence.IPersistStreams;
-import com.lingona.eventstore.joliver.core.Dispatcher.DelegateMessageDispatcher;
-import com.lingona.eventstore.joliver.core.Dispatcher.NullDispatcher;
-import com.lingona.eventstore.joliver.core.OptimisticEventStore;
-import com.lingona.eventstore.joliver.core.OptimisticEventStream;
-import com.lingona.eventstore.joliver.core.OptimisticPipelineHook;
-import com.lingona.eventstore.joliver.core.Persistence.InMemoryPersistence.InMemoryPersistenceEngine;
-import com.lingona.eventstore.joliver.core.Persistence.InMemoryPersistence.InMemoryPersistenceFactory;
-import com.lingona.eventstore.joliver.persistence.sqlpersistence.system.TransactionScope;
-import com.lingona.eventstore.joliver.wireup.Wireup;
-*/
+import java.util.Arrays;
+import java.util.Scanner;
+import java.util.UUID;
 // using System.Transactions;
 // using Dispatcher;
+
 
 public class MainProgram {
 
