@@ -1,1 +1,7 @@
-target/ 
+target/
+
+
+# Intellij IDEA Files #
+.idea/
+*.iml
+ 
